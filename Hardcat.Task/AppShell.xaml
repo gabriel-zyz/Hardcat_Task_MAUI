@@ -4,12 +4,13 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Hardcat.Task"
+    xmlns:views="clr-namespace:Hardcat.Task.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="Hardcat.Task">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate views:TaskPage}"
+        Route="TaskPage" />
 
 </Shell>
