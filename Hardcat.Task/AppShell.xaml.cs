@@ -8,7 +8,6 @@ namespace Hardcat.Task
         {
             InitializeComponent();
 
-            Routing.RegisterRoute(nameof(TaskPage), typeof(TaskPage));
             Routing.RegisterRoute(nameof(AddTaskPage), typeof(AddTaskPage));
 		}
     }

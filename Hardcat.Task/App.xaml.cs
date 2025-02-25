@@ -2,7 +2,8 @@
 {
     public partial class App : Application
     {
-        public App()
+		public static Models.TaskViewModel TaskVM { get; } = new Models.TaskViewModel();
+		public App()
         {
             InitializeComponent();
 
