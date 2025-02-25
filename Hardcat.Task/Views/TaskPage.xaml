@@ -6,10 +6,12 @@
              Shell.BackgroundColor="{StaticResource Primary}"
              Shell.TitleColor="White">
     
+    <!-- The toolbar with a plus button -->
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnAddTaskClicked"/>
     </ContentPage.ToolbarItems>
 
+    <!-- The listview listing all added tasks -->
     <ListView x:Name="listTasks" 
               ItemsSource="{Binding Tasks}">
         <ListView.ItemTemplate>
